@@ -1,0 +1,252 @@
+body, html {
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    height: 100%;
+    margin: 0;
+}
+
+.navContainer {
+    position: absolute;
+    background: black;
+    width: 20%;
+    height: 100%;
+}
+
+.logoContainer {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 60%;
+}
+
+.logo {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+
+.firstMenuContainer {
+    width: 100%;
+    height: 50px;
+    background-color: dimgrey;
+    vertical-align: middle;
+    display: inline-block;
+    border-bottom: solid black 1px;
+}
+
+.secondMenuContainer {
+    width: 100%;
+    height: 50px;
+    background-color: dimgrey;
+    vertical-align: middle;
+    display: inline-block;
+    border-bottom: solid black 1px;
+}
+
+.thirdMenuContainer {
+    width: 100%;
+    height: 50px;
+    background-color: dimgray;
+    vertical-align: middle;
+    display: inline-block;
+    border-bottom: solid black 1px;
+}
+
+.menuElements {
+    font-family: "Helvetica Neue";
+    color: white;
+    font-size: 12px;
+    float: left;
+    padding: 16px;
+}
+
+.stepsMenu {
+    font-family: "Helvetica Neue";
+    color: white;
+    font-size: 10px;
+    float: right;
+    text-transform: uppercase;
+    padding: 18px;
+}
+
+.applyButtonContainer {
+    height: 45px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 20px 0 0 0;
+    border-bottom: solid dimgrey 1px;
+    background-color: black;
+
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+
+.applyButton {
+    padding: 8px 50px 8px 50px;
+    text-align: center;
+    border-radius: 12px;
+    background-color: darkcyan;
+    color: white;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.templatesContainer {
+    text-align: center;
+    background-color: black;
+}
+
+.template {
+    height: 150px;
+    width: 200px;
+    margin: 5px;
+    border: solid black 3px;
+    background-color: black;
+}
+
+.template:hover {
+    border: solid darkcyan 3px;
+}
+
+.dropDownMenu {
+    background-color: black;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.droppedMenu {
+    display: block;
+}
+
+.btn{
+    height: 30px;
+}
+
+
+.firstMenuContainer{
+}
+
+.firstMenuContainer:hover .droppedMenu {
+    display: block;
+}
+
+.contentHeader {
+    height: 60px;
+    width: 80%;
+    float: right;
+    background-color: gainsboro;
+}
+
+article {
+    width: 80%;
+    float: right;
+}
+
+section {
+    width: 80%;
+    float: right;
+}
+
+.img1 {
+    height: 150px;
+    width: 200px;
+}
+
+.img2 {
+    height: 150px;
+    width: 200px;
+}
+
+.img3 {
+    height: 150px;
+    width: 200px;
+}
+
+.skipButton {
+    float: right;
+    display: inline-block;
+    padding: 15px;
+    color: darkcyan;
+    text-decoration: none;
+    font-size: 8px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.finishButton {
+    padding: 6px 20px 6px 20px;
+    float: right;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: darkcyan;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 8px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.pageTitle {
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.buttonContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.contentHeader {
+    position: relative;
+}
+
+.mainText {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.lead {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.templatesTitle {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.featuredTemplates {
+    text-align: center;
+}
+
+.featuredTemplates img {
+    margin: 0 30px;
+    -webkit-box-shadow: 0px 10px 53px -9px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 0px 10px 53px -9px rgba(0, 0, 0, 0.46);
+    box-shadow: 0px 10px 53px -9px rgba(0, 0, 0, 0.46);
+
+}
